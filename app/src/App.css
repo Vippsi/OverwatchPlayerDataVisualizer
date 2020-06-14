@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.container {
+  margin: 2% 0;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  /* justify-content: center; */
+  width: 500px;
+  height: 700px;
+  border: 1px solid red;
+  background-color: #43484c;
+}
+
+.borderDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border:1px solid red;
+  /* height: 250px; */
+  width: 100%;
+
+}
+
+.playerIcon {
+  display:flex;
+  align-self: center;
+  width: 130px;
+  
+  align-items: center;
+  position: absolute;
+  border-radius: 80px;
+
+}
+
+.playerBorder {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  width: 300px;
+}
+.playerLevel {
+  color:white;
+  background-color: #74544a;
+  justify-content: center;
+  text-align: center;
+  width: 50px;
+  border: 1px solid white;
+  font-size: 1.6rem;
+  display: flex;
+  align-self: center;
+  position: absolute;
+  margin: 75px 0 0 0;
+}
+
+.prestigeIcon {
+  display: flex;
+  margin: 75px 0 0 0;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.rankIcon{
+  width: 100px;
+}
+.divIcon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* background-color: black; */
+  
+}
+
+.rankIcon {
+  /* background-color: black; */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
